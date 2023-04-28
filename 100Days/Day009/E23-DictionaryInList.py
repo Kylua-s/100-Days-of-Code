@@ -26,9 +26,7 @@ travel_log = [
     },
 ]
 
-# Exercise 2 - Solution
-
-
+# Exercise 23 - Solution
 def add_new_country(country, visits, cities):
     travel_log.append({
         "country": country,

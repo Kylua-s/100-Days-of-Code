@@ -32,7 +32,7 @@ If they type 'yes' then ask them for the direction/text/shift again and call the
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 # Project 7 - Solution
-import art
+import caesar_art
 
 # Function to de- or encrypt a text with the Caesar cipher
 def caesar(text, shift, direction):
@@ -52,7 +52,7 @@ def caesar(text, shift, direction):
     print(f"Here's the {direction}d result: {cipher_text}")
 
 
-print(art.logo)
+print(caesar_art.logo)
 code = True
 while(code):
     # Get user inputs

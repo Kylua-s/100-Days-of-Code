@@ -1,8 +1,0 @@
-Today's task was to create a hangman game, which we divided into 5 challenges to build the game gradually. 
-Each challenge was designed to add more functionality to the game until it became a fully playable hangman game.
-
-1. Challenge: Picking a Random Words and Checking Answers
-2. Challenge: Replacing Blanks with Guesses
-3. Challenge: Checking if the Player has Won
-4. Challenge: Keeping Track of the Player's Lives
-5. Challenge: Improving the User Experience

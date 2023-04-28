@@ -5,7 +5,7 @@ Build a calculator.
 """
 
 # Project 9 - Solution
-import art
+import calculator_art
 import os
 
 def calculation(number1, operator, number2):
@@ -20,7 +20,7 @@ def calculation(number1, operator, number2):
 
 # While the user wants to calculate
 while True:
-    print(art.logo)
+    print(calculator_art.logo)
     number1 = int(input("What's your first number?: "))
 
     # While the user want to calculate with the same result

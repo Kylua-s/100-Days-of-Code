@@ -1,14 +1,14 @@
-# Project 8 - blind-auction
+# Project 8 - Blind Auction
 """
 Idea:
 Write a program that will be able to create an auction and invite bidders to participate by placing bids. The highest bidder will win. 
 """
 
-# Project x - Solution
+# Project 8 - Solution
 import os
-import art
+import auction_art
 
-print(art.logo)
+print(auction_art.logo)
 bidders = {}
 while (True):
     name = input("What is your name?: ")

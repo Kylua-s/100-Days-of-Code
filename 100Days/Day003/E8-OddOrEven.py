@@ -1,4 +1,4 @@
-# Exercise 6 - Odd or Even
+# Exercise 8 - Odd or Even
 """
 Instructions:
 Write a program that works out whether if a given number is an odd or even number.
@@ -17,7 +17,7 @@ This is an even number.
 # Given Code
 number = int(input("Which number do you want to check? "))
 
-# Exercise 6 - Solution
+# Exercise 8 - Solution
 if number%2 == 0:
     print("This is an even number.")
 else:

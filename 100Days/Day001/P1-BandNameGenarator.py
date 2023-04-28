@@ -1,4 +1,4 @@
-# Project: Band Name Generator
+# Project 1 - Band Name Generator
 """
 1. Create a greeting for your program.
 2. Ask the user for the city that they grew up in.
@@ -7,7 +7,7 @@
 5. Make sure the input cursor shows on a new line:
 """
 
-# Project: Band Name Generator - Solution
+# Project 1 - Solution
 print("Welcome to the Band Name Generator.")
 birth_city = input("What's the name of the city you grew up in?\n")
 pet_name = input("What's your pet's name?\n")

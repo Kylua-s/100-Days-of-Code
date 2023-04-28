@@ -1,4 +1,4 @@
-# Exercise 23 - Days in Month 
+# Exercise 24 - Days in Month 
 """
 Instructions:
 In the starting code, you'll find the solution from the Leap Year challenge. 
@@ -9,7 +9,7 @@ And it will use this information to work out the number of days in the month, th
 The List month_days contains the number of days in a month from January to December for a non-leap year. A leap year has 29 days in February.
 """
 
-# Exercise 23 - Solution
+# Exercise 24 - Solution
 def is_leap(year):
     if year%4 != 0:
         return False

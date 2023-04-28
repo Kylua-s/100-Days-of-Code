@@ -26,7 +26,7 @@ student_scores = {
     "Neville": 62,
 }
 
-# Exercise 1 - Solution
+# Exercise 22 - Solution
 student_grades = {}
 for key in student_scores:
     score = student_scores[key]
