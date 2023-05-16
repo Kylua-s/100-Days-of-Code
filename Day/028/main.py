@@ -1,11 +1,11 @@
 import tkinter as tk
 
 # Constants
-WORK_MIN = 25
-SHORT_BREAK_MIN = 5
-LONG_BREAK_MIN = 20
+WORK_MIN = 1
+SHORT_BREAK_MIN = 1
+LONG_BREAK_MIN = 2
 reps = 0
-timer = None
+timer = ''
 
 
 # Resets the time and the check marks
@@ -67,7 +67,7 @@ window.config(padx=100, pady=50, bg='#f7f5dd')
 timer_lable = tk.Label(text='Timer', bg='#f7f5dd', fg='#9bdeac', font=('Courier', 50, 'bold'))
 timer_lable.grid(column=2, row=1, )
 
-check_lable = tk.Label(text='✔', bg='#f7f5dd', fg='#9bdeac')
+check_lable = tk.Label(text='', bg='#f7f5dd', fg='#9bdeac')
 check_lable.grid(column=2, row=4)
 
 # Buttons
