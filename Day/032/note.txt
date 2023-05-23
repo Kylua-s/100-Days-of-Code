@@ -1,4 +1,0 @@
-Today's project involves creating a program that sends birthday emails. In order for the program to function correctly,
-it requires the inclusion of certain private information, such as email addresses and passwords for the email account
-from which the emails will be sent. However, considering security reasons, I have made the decision not to upload
-today's project.
