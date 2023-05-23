@@ -1,9 +1,11 @@
 # Project 30 - Weater
 """
-Idea:
 This program notifies you if you need an umbrella.
-Note! For the code to work, you need to replace all the placeholders with
-Your own details. e.g., account_sid, lat/lon, from/to phone numbers.
+
+Note! For the code to work, you need to replace all the placeholders with your own details:
+api_key, account_sid, auth_token, weather_params and the phone numbers.
+
+Due to privacy concerns, I have omitted my personal data.
 """
 import requests
 import os

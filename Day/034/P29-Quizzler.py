@@ -1,4 +1,7 @@
 # Project 29- Quizzler
+"""
+A quiz with random true/ false questions.
+"""
 import customtkinter as ctk
 from PIL import Image
 import requests

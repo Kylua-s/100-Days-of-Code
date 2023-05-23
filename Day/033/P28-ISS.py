@@ -1,17 +1,21 @@
 # Project 28 - ISS
 """
-Idea:
 This programm notifys you if the ISS is near you.
+
+Note! For the code to work, you need to replace all the placeholders with your own details:
+MY_EMAIL, MY_PASSWORD, MY_LAT, MY_LONG and SMTP ADDRESS
+
+Due to privacy concerns, I have omitted my personal data.
 """
 import requests
 from datetime import datetime
 import smtplib
 import time
 
-MY_EMAIL = "___YOUR_EMAIL_HERE____"
-MY_PASSWORD = "___YOUR_PASSWORD_HERE___"
-MY_LAT = 51.507351 # Your latitude
-MY_LONG = -0.127758 # Your longitude
+MY_EMAIL = "YOUR EMAIL"
+MY_PASSWORD = "YOUR PASSWORD"
+MY_LAT = 0  # YOUR LATITUDE
+MY_LONG = 0  # YOUR LONGITUDE
 
 
 def is_iss_overhead():
@@ -22,8 +26,8 @@ def is_iss_overhead():
     iss_latitude = float(data["iss_position"]["latitude"])
     iss_longitude = float(data["iss_position"]["longitude"])
 
-    #Your position is within +5 or -5 degrees of the iss position.
-    if MY_LAT-5 <= iss_latitude <= MY_LAT+5 and MY_LONG-5 <= iss_longitude <= MY_LONG+5:
+    # Your position is within +5 or -5 degrees of the iss position.
+    if MY_LAT - 5 <= iss_latitude <= MY_LAT + 5 and MY_LONG - 5 <= iss_longitude <= MY_LONG + 5:
         return True
 
 
@@ -48,7 +52,7 @@ def is_night():
 while True:
     time.sleep(60)
     if is_iss_overhead() and is_night():
-        connection = smtplib.SMTP("__YOUR_SMTP_ADDRESS_HERE___")
+        connection = smtplib.SMTP("YOUR_SMTP_ADDRESS")
         connection.starttls()
         connection.login(MY_EMAIL, MY_PASSWORD)
         connection.sendmail(
