@@ -81,14 +81,13 @@ question.grid(column=1, row=2, columnspan=2)
 space = ctk.CTkLabel(root, text="", pady=10).grid(column=1, row=3, columnspan=2)
 
 # Buttons
-check_image = ctk.CTkImage(dark_image=Image.open("../031/images/Check.png"), size=(95, 95))
+check_image = ctk.CTkImage(dark_image=Image.open("../../2. Intermediate/031/images/Check.png"), size=(95, 95))
 check_button = ctk.CTkButton(root, image=check_image, fg_color="transparent", hover_color="#404040", width=0, text="",
                              command=right).grid(column=1, row=4)
 
-cross_image = ctk.CTkImage(dark_image=Image.open("../031/images/Cross.png"), size=(95, 95))
+cross_image = ctk.CTkImage(dark_image=Image.open("../../2. Intermediate/031/images/Cross.png"), size=(95, 95))
 cross_button = ctk.CTkButton(root, image=cross_image, fg_color="transparent", hover_color="#404040", width=0, text="",
                              command=wrong).grid(column=2, row=4)
-
 
 next_question()
 root.mainloop()

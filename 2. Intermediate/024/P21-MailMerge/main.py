@@ -6,11 +6,11 @@
 
 # Project 21 - Solution
 # Opens the default letter
-with open("./Input/Letters/starting_letter.txt") as letter_file:
+with open("Input/Letters/starting_letter.txt") as letter_file:
     letter = letter_file.read()
 
 # Opens the file with name
-with open("./Input/Names/invited_names.txt") as name_file:
+with open("Input/Names/invited_names.txt") as name_file:
     for name in name_file:
         name = name.rstrip()
         named_letter = letter.replace('[name]', name)
