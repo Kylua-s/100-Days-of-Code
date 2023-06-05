@@ -6,9 +6,9 @@ Welcome to my 100 Days of Code: The Complete Python Pro Bootcamp for 2023 journe
 ## Progress
 Currently, I am in an examination phase which limits my availability, but I am making an effort to continue the daily coding practice whenever possible.
 
-47 out of 100 Days Completed
-57 Exercises Completed
-41 Projects Completed
+- 47 out of 100 Days Completed
+- 57 Exercises Completed
+- 41 Projects Completed
 
 
 ## About the Course
