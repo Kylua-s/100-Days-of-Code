@@ -1,6 +1,5 @@
 # Project 26 - Flash Cards
 """
-Idea:
 Learn the 1000 most commen spanish words.
 Words from: https://en.wiktionary.org/wiki/Wiktionary:Frequency_lists/Spanish1000
 """
@@ -9,7 +8,7 @@ import random
 import customtkinter as ctk
 from PIL import Image
 
-
+# Reads the csv-file and converts it into a dictionary
 words_data = pandas.read_csv("data/spanish_words.csv")
 words = words_data.to_dict(orient="records")
 
@@ -70,7 +69,6 @@ switch_button = ctk.CTkButton(root, image=switch_image, fg_color="transparent", 
 cross_image = ctk.CTkImage(dark_image=Image.open("images/Cross.png"), size=(95, 95))
 cross_button = ctk.CTkButton(root, image=cross_image, fg_color="transparent", hover_color="#404040", width=0, text="",
                              command=next_card).grid(column=3, row=4)
-
 
 current_card = {}
 next_card()
