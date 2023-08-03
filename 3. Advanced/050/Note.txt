@@ -1,0 +1,3 @@
+Today's project involves creating a Tinder bot that automatically swipes right on every user. However, I find the
+concept ethically concerning and have made the decision not to pursue it. Furthermore, it would be quite similar to the
+projects from day 048 and 049, so I believe there is no need to repeat.
