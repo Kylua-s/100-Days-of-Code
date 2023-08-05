@@ -1,6 +1,6 @@
 # Project 44 - X Bot
 """
-
+This bot will automatically check your internet speed and post it on X to your internet provider.
 """
 
 import time
